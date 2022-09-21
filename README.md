@@ -4,6 +4,7 @@ A battery supply for retro motherboards with an EXT_BATT header.
 ![pic](pic.jpg)
 \
 ![mobo](ext_batt.png)
+^--photo from minuszerodegrees showing EXT_BATT header
 
 ## Info
 I have quite a few 386 and 486 motherboards that have an EXT_BATT header, but I've removed the rechargable Varta. This PCB project is aimed at using the EXT_BATT header to provide a solution to keep your CMOS settings saved and RTC ticking. The MAX40200 chip provides for "ideal diode" functionality with less than a 43mV drop in voltage. It also prevents a charge circuit from trying to charge the LR44 / 357 type battery. I prefer this board because the batteries are cheap, last a long time, and the EXT_BATT header is usually in an easier spot to get to than where the Varta battery is crammed on most boards. 
