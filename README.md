@@ -15,7 +15,7 @@ I have quite a few 386 and 486 motherboards that have an EXT_BATT header, but I'
 * Maxim MAX40200AUK+T Ideal Diode
 * 3x Renata SMTU357-LF battery holder
 * 1x04 2.54mm pitch right angle pin socket, or 1x04 2.54mm pitch straight pin socket, or 1x04 2.54mm male pin headers (see below for mounting orientations)
-* 3x LR44 / 357 batteries (357 will last longer)
+* 3x LR44 / 357 batteries
 
 ## Installation
 Plug the completed board into the EXT_BATT header. Several motherboards also use an INTERNAL/EXTERNAL jumper to select between the factory installed battery and the EXT_BATT header.
