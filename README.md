@@ -4,6 +4,7 @@ A battery supply for retro motherboards with an EXT_BATT header.
 ![pic](pic.jpg)
 \
 ![mobo](ext_batt.png)
+\
 ^--photo from minuszerodegrees showing EXT_BATT header
 
 ## Info
