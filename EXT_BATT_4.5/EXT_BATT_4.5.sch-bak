@@ -1,0 +1,236 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:SMTU357-LF BT3
+U 1 1 632B4115
+P 5300 4000
+F 0 "BT3" H 5928 3996 50  0000 L CNN
+F 1 "SMTU357-LF" H 5928 3905 50  0000 L CNN
+F 2 "SMTU357LF" H 5950 4100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SMTU357-LF.pdf" H 5950 4000 50  0001 L CNN
+F 4 "Coin Cell Battery Holders SFC MNT FOR 357" H 5950 3900 50  0001 L CNN "Description"
+F 5 "7.75" H 5950 3800 50  0001 L CNN "Height"
+F 6 "614-SMTU357-LF" H 5950 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Renata/SMTU357-LF?qs=IatN%252Buj5gMghdEOUfzBkzg%3D%3D" H 5950 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "RENATA" H 5950 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "SMTU357-LF" H 5950 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:SMTU357-LF BT2
+U 1 1 632B6831
+P 5300 3600
+F 0 "BT2" H 5928 3596 50  0000 L CNN
+F 1 "SMTU357-LF" H 5928 3505 50  0000 L CNN
+F 2 "SMTU357LF" H 5950 3700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SMTU357-LF.pdf" H 5950 3600 50  0001 L CNN
+F 4 "Coin Cell Battery Holders SFC MNT FOR 357" H 5950 3500 50  0001 L CNN "Description"
+F 5 "7.75" H 5950 3400 50  0001 L CNN "Height"
+F 6 "614-SMTU357-LF" H 5950 3300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Renata/SMTU357-LF?qs=IatN%252Buj5gMghdEOUfzBkzg%3D%3D" H 5950 3200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "RENATA" H 5950 3100 50  0001 L CNN "Manufacturer_Name"
+F 9 "SMTU357-LF" H 5950 3000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:SMTU357-LF BT1
+U 1 1 632B7560
+P 5300 3200
+F 0 "BT1" H 5928 3196 50  0000 L CNN
+F 1 "SMTU357-LF" H 5928 3105 50  0000 L CNN
+F 2 "SMTU357LF" H 5950 3300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SMTU357-LF.pdf" H 5950 3200 50  0001 L CNN
+F 4 "Coin Cell Battery Holders SFC MNT FOR 357" H 5950 3100 50  0001 L CNN "Description"
+F 5 "7.75" H 5950 3000 50  0001 L CNN "Height"
+F 6 "614-SMTU357-LF" H 5950 2900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Renata/SMTU357-LF?qs=IatN%252Buj5gMghdEOUfzBkzg%3D%3D" H 5950 2800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "RENATA" H 5950 2700 50  0001 L CNN "Manufacturer_Name"
+F 9 "SMTU357-LF" H 5950 2600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4000 5300 3700
+Wire Wire Line
+	5300 3600 5300 3300
+Wire Wire Line
+	5300 3200 5150 3200
+Wire Wire Line
+	5300 4100 5150 4100
+$Comp
+L power:GND #PWR?
+U 1 1 632B7A3E
+P 5150 4200
+F 0 "#PWR?" H 5150 3950 50  0001 C CNN
+F 1 "GND" H 5155 4027 50  0000 C CNN
+F 2 "" H 5150 4200 50  0001 C CNN
+F 3 "" H 5150 4200 50  0001 C CNN
+	1    5150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 632B9E8E
+P 5150 3100
+F 0 "#PWR?" H 5150 2950 50  0001 C CNN
+F 1 "+BATT" H 5165 3273 50  0000 C CNN
+F 2 "" H 5150 3100 50  0001 C CNN
+F 3 "" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3100 5150 3200
+Wire Wire Line
+	5150 4200 5150 4100
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 632BB950
+P 4050 3150
+F 0 "J1" H 4130 3142 50  0000 L CNN
+F 1 "Conn_01x04" H 4130 3051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal" H 4050 3150 50  0001 C CNN
+F 3 "~" H 4050 3150 50  0001 C CNN
+	1    4050 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 3250
+NoConn ~ 3850 3150
+Text Notes 3650 3200 0    50   ~ 0
+KEY
+$Comp
+L SamacSys_Parts:MAX40200AUK+T IC1
+U 1 1 632C9243
+P 3550 4000
+F 0 "IC1" H 4050 4265 50  0000 C CNN
+F 1 "MAX40200AUK+T" H 4050 4174 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 4400 4100 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 4400 4000 50  0001 L CNN
+F 4 "OR Controller Source Selector Switch P-Channel 1:1 SOT-23-5" H 4400 3900 50  0001 L CNN "Description"
+F 5 "1.45" H 4400 3800 50  0001 L CNN "Height"
+F 6 "700-MAX40200AUK+T" H 4400 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX40200AUK%2bT?qs=5aG0NVq1C4yORXmgClGWGQ%3D%3D" H 4400 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Maxim Integrated" H 4400 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "MAX40200AUK+T" H 4400 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 4000
+$Comp
+L power:+BATT #PWR?
+U 1 1 632D05A1
+P 3300 3900
+F 0 "#PWR?" H 3300 3750 50  0001 C CNN
+F 1 "+BATT" H 3315 4073 50  0000 C CNN
+F 2 "" H 3300 3900 50  0001 C CNN
+F 3 "" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4000 3400 4000
+Wire Wire Line
+	3300 4000 3300 3900
+Wire Wire Line
+	3550 4100 3300 4100
+Wire Wire Line
+	3300 4100 3300 4250
+$Comp
+L power:GND #PWR?
+U 1 1 632D1C66
+P 3300 4250
+F 0 "#PWR?" H 3300 4000 50  0001 C CNN
+F 1 "GND" H 3305 4077 50  0000 C CNN
+F 2 "" H 3300 4250 50  0001 C CNN
+F 3 "" H 3300 4250 50  0001 C CNN
+	1    3300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4200 3400 4200
+Wire Wire Line
+	3400 4200 3400 4000
+Connection ~ 3400 4000
+Wire Wire Line
+	3400 4000 3300 4000
+$Comp
+L power:VDD #PWR?
+U 1 1 632D4416
+P 3650 3000
+F 0 "#PWR?" H 3650 2850 50  0001 C CNN
+F 1 "VDD" H 3665 3173 50  0000 C CNN
+F 2 "" H 3650 3000 50  0001 C CNN
+F 3 "" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 632D52A9
+P 3650 3400
+F 0 "#PWR?" H 3650 3150 50  0001 C CNN
+F 1 "GND" H 3655 3227 50  0000 C CNN
+F 2 "" H 3650 3400 50  0001 C CNN
+F 3 "" H 3650 3400 50  0001 C CNN
+	1    3650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3000 3650 3050
+Wire Wire Line
+	3650 3050 3850 3050
+Wire Wire Line
+	3850 3350 3650 3350
+Wire Wire Line
+	3650 3350 3650 3400
+$Comp
+L power:VDD #PWR?
+U 1 1 632D74F5
+P 4700 4050
+F 0 "#PWR?" H 4700 3900 50  0001 C CNN
+F 1 "VDD" H 4715 4223 50  0000 C CNN
+F 2 "" H 4700 4050 50  0001 C CNN
+F 3 "" H 4700 4050 50  0001 C CNN
+	1    4700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4100 4700 4100
+Wire Wire Line
+	4700 4100 4700 4050
+Wire Notes Line
+	6500 2750 6500 4500
+Wire Notes Line
+	5000 4500 5000 2750
+Text Notes 5200 2850 0    50   ~ 0
+3x LR44/357 Battery Holders
+Text Notes 5450 2950 0    50   ~ 0
+4.5 - 4.65VDC
+Wire Notes Line
+	3100 2750 3100 4500
+Wire Notes Line
+	3100 2750 6500 2750
+Wire Notes Line
+	3100 4500 6500 4500
+Wire Notes Line
+	3100 3650 5000 3650
+Text Notes 4300 2850 0    50   ~ 0
+Power Connector
+Text Notes 4500 3750 0    50   ~ 0
+Ideal Diode
+$EndSCHEMATC
