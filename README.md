@@ -24,7 +24,7 @@ Plug the completed board into the EXT_BATT header. Several motherboards also use
 Mounting orientations:
 * Vertical - this PCB sits about 36mm tall when installed vertically. 
 * Horizontal - may be possible depending on your board's EXT_BATT header location/orientation and other nearby components.
-* Remote - use pin header extensions to connect to the EXT_BATT header and put the PCB somewhere else in the case.
+* Remote - use pin header extension wires to connect to the EXT_BATT header and put the PCB somewhere else in the case.
 
 ## Other
 Reference material for retro motherboard batteries: http://minuszerodegrees.net/battery/cmos/vintage_motherboard_batteries.htm
